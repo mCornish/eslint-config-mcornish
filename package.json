@@ -1,0 +1,63 @@
+{
+  "name": "eslint-config-mcornish",
+  "version": "1.0.0",
+  "description": "Config for Eslint, Prettier, and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./*.js .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mCornish/eslint-config-mcornish.git"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier",
+    "typescript"
+  ],
+  "author": "Mike Cornish <cornishmw@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mCornish/eslint-config-mikec/issues"
+  },
+  "homepage": "https://github.com/mCornish/eslint-config-mikec#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2"
+  },
+  "optionalDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
